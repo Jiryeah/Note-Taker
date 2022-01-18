@@ -19,3 +19,23 @@ This is an application called Note Taker that can be used to write and save note
 
 ### Deployed Application link and Screenshot
 - https://jiryeah.github.io/Note-Taker/
+
+
+
+
+
+
+
+
+
+
+
+### Contributors
+- Faissal Shabani
+
+### Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
