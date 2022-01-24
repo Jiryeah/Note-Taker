@@ -2,12 +2,12 @@
 const express = require(`express`);
 
 // creates the server and sets the PORT
-const app = express();
 const PORT = process.env.PORT || 3001;
-
+const app = express();
 // routes for api and html
-const htmlRoutes = require(`./Routes/htmlRoutes`);
 const apiRoutes = require(`./Routes/apiRoutes`);
+const htmlRoutes = require(`./Routes/htmlRoutes`);
+
 
 // can use this for deleted feature
 app.use(express.urlencoded({ extended: true }));
