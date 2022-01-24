@@ -6,6 +6,8 @@ const fs = require(`fs`);
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+// can use this for deleted feature
+app.use(express.urlencoded({ extended: true }));
 // routes for api and html
 const htmlRoutes = require(`./Routes/htmlRoutes`);
 const apiRoutes = require(`./Routes/apiRoutes`);
