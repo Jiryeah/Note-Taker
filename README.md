@@ -1,13 +1,14 @@
 # Note-Taker
 
-## Summary
-This application, called Note Taker, will be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+## Summary 
+This application, called Note Taker, will be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file
 
 ## Requirements 
+- GIVEN a note-taking application
 - WHEN I open the Note Taker
 - THEN I am presented with a landing page with a link to a notes page
 - WHEN I click on the link to the notes page
-- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-   hand column
+- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right--   hand column
 - WHEN I enter a new note title and the note’s text
 - THEN a Save icon appears in the navigation at the top of the page
 - WHEN I click on the Save icon
@@ -17,28 +18,21 @@ This application, called Note Taker, will be used to write and save notes. This 
 - WHEN I click on the Write icon in the navigation at the top of the page
 - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
-### Deployed Application link and Screenshot
-- https://jiryeah.github.io/Note-Taker/
+## Link to Deployed Application
+-https://jiryeah.github.io/Note-Taker/
 
-
-
-
-
-
-
-
-
-
-
+## Screenshot of Deployed Application
+- 
 
 ### Technologies Used
 - HTML
 - CSS
 - JavaScript
-- NPM
 - Node.js
 - Express.js
+- JSON
+- NPM
 - Command Line
 
-### Contributors
+### Contributors 
 - Faissal Shabani
