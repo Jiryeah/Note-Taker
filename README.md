@@ -1,7 +1,7 @@
 # Note-Taker
 
 ## Summary
-This is an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+This application, called Note Taker, will be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 ## Requirements 
 - WHEN I open the Note Taker
@@ -30,13 +30,15 @@ This is an application called Note Taker that can be used to write and save note
 
 
 
-### Contributors
-- Faissal Shabani
 
 ### Technologies Used
 - HTML
 - CSS
 - JavaScript
+- NPM
 - Node.js
 - Express.js
-- Heroku
+- Command Line
+
+### Contributors
+- Faissal Shabani
