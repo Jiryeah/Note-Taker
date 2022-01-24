@@ -1,17 +1,16 @@
 // required to initialize 'Express.js' into code
 const express = require(`express`);
-const fs = require(`fs`);
 
-// required to initialize port
-const PORT = process.env.PORT || 3001;
+// creates the server and sets the PORT
 const app = express();
+const PORT = process.env.PORT || 3001;
 
-// can use this for deleted feature
-app.use(express.urlencoded({ extended: true }));
 // routes for api and html
 const htmlRoutes = require(`./Routes/htmlRoutes`);
 const apiRoutes = require(`./Routes/apiRoutes`);
 
+// can use this for deleted feature
+app.use(express.urlencoded({ extended: true }));
 // middleware
 app.use(express.json());
 app.use(express.static(`public`));
