@@ -1,0 +1,23 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "## Summary This application, called Note Taker, will be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiryeah/Note-Taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiryeah/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Jiryeah/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
