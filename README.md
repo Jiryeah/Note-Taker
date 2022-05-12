@@ -1,9 +1,25 @@
 # Note-Taker
 
+## Table of Contents
+
+- [User Story](#user-story)
+- [Requirements](#requirements)
+- [Deployed Link](#deployed-link)
+- [Screenshot](#screenshot)
+- [Technologies Used](#technologies-used)
+
 ## Summary 
 This application, called Note Taker, will be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file
 
+## User Story
+```md
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
+
 ## Requirements 
+```md
 - GIVEN a note-taking application
 - WHEN I open the Note Taker
 - THEN I am presented with a landing page with a link to a notes page
@@ -17,11 +33,12 @@ This application, called Note Taker, will be used to write and save notes. This 
 - THEN that note appears in the right-hand column
 - WHEN I click on the Write icon in the navigation at the top of the page
 - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+```
 
-## Link to Deployed Application
--https://jiryeah.github.io/Note-Taker/
+## Deployed Link
+- https://jiryeah.github.io/Note-Taker/
 
-## Screenshot of Deployed Application
+## Screenshot 
 - 
 
 ### Technologies Used
