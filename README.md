@@ -4,27 +4,30 @@
 
 - [User Story](#user-story)
 - [Requirements](#requirements)
-- [Deployed Link](#deployed-link)
+- [Install and Use](#install-and-use)
 - [Screenshot](#screenshot)
 - [Technologies Used](#technologies-used)
 
-## Summary 
+## Summary
+
 This application, called Note Taker, will be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file
 
 ## User Story
+
 ```md
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
-## Requirements 
+## Requirements
+
 ```md
 - GIVEN a note-taking application
 - WHEN I open the Note Taker
 - THEN I am presented with a landing page with a link to a notes page
 - WHEN I click on the link to the notes page
-- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right--   hand column
+- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-- hand column
 - WHEN I enter a new note title and the note’s text
 - THEN a Save icon appears in the navigation at the top of the page
 - WHEN I click on the Save icon
@@ -35,13 +38,21 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
-## Deployed Link
-- https://jiryeah.github.io/Note-Taker/
+## Install and Use
 
-## Screenshot 
-- 
+- Clone the repo
+- `NPM Install` to download the dependencies
+- `NPM run watch` to run the server
+- Head to the given port, and Enjoy!
+
+## Screenshot
+
+![Screenshot showcasing the working app and it's ability to save new notes](./images/Demo%201.png)
+
+![When the note title it clicked, it will show the text](./images/Demo%202.png)
 
 ### Technologies Used
+
 - HTML
 - CSS
 - JavaScript
@@ -49,7 +60,8 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 - Express.js
 - JSON
 - NPM
-- Command Line
+- UUID
 
-### Contributors 
+### Contributors
+
 - Faissal Shabani
